@@ -1,0 +1,10 @@
+function randomNumber(minimum, maximum){
+    return Math.floor((Math.random()*10) + 1); 
+}
+
+ parseInt(YourNumber);
+var YourNumber = parseInt(prompt("Enter a Value", "0"), 10);
+var num1 = parseInt(YourNumber);
+
+console.log ("Your answer",YourNumber)
+console.log ("Correct answer",randomNumber(1, 10))
